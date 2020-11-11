@@ -1,5 +1,6 @@
 
 def hopper
+  #nested hash
 	programmer_hash = 
  		{
       :grace_hopper => {
@@ -15,7 +16,9 @@ def hopper
         :languages => ["C"]
       }
     }
+#nested hash ends
 
+programmer_hash[:grace_hopper]
 end
 
 def alan_kay_is_known_for
